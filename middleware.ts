@@ -8,7 +8,7 @@ export function middleware(req: NextRequest) {
 
   res.headers.set(
     'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' https://trusted.cdn.com; style-src 'self' https://trusted.cdn.com; img-src 'self' data:;"
+    "default-src 'self'; script-src 'self' https://trusted.cdn.com; style-src 'self' https://trusted.cdn.com; img-src 'self' https://purecatamphetamine.github.io data:;"
   );
   res.headers.set('X-Frame-Options', 'SAMEORIGIN');
   res.headers.set('X-Content-Type-Options', 'nosniff');
